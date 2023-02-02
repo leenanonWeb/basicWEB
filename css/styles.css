@@ -1,0 +1,75 @@
+body {
+    background-color: #52e4ee;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+hr {
+    background-color: grey;
+    border-style: dotted none none;
+
+    /* border-style: none;
+    border-top-style: dotted; */
+
+    border-color: #ffffff;
+    border-width: 5px;
+
+    height: 0px;
+    width: 15%;
+
+
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 100px;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+p {
+    color: rgb(30, 255, 0);
+}
+
+img {
+    width: 20%;
+
+}
+/********************************CLASS SELECTER********************************/
+    
+.bacon{
+    background-color: #0bec29;
+}
+
+/*CLASS 2 ตัว */
+.brococoli{
+    background-color: #ff0000;
+}
+.circular{
+    border-radius: 100%;
+}
+
+
+
+
+/********************************ID SELECTER********************************/
+
+#heading{
+color: #eeff02;
+}
+.heading{
+    color: #ff0000;
+}
+
+
+
+
+
+
+
+
+

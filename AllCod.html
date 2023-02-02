@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container_main">
+        <h1>
+            .container
+        </h1>
+        <header>
+
+            <h1>
+                Header
+            </h1>
+
+        </header>
+
+        <section>
+            <h1>
+                content text "section"
+            </h1>
+        </section>
+
+        <aside>
+            <h1>sidebar text "aside"</h1>
+        </aside>
+
+        <div class="clearfix"></div>  <!--  เขียนเคลีย์ float -->
+
+        <footer>
+            <h1>
+                footer !!!
+            </h1>
+
+        </footer>
+
+
+
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
+
+<style>* {
+    margin: 0;
+    padding: 0;
+    /*resrt ให้ชิดมุม*/
+}
+
+.clearfix{
+    clear: both;
+}
+
+.container_main {
+    width: 960px;
+    /*ความกว้ง*/
+    margin: 0 auto;
+    /*ระยะห่าง บน ล่าง ซ้าย ขวา*/
+    background: #00a2ff;
+    /*พื้นหลัง*/
+
+
+}
+
+header {
+    width: 880px;
+    height: 150px;
+
+    text-align: center;
+    /*ข้อความตรงกลาง*/
+    background-color: yellow;
+    /*พื้นหลัง*/
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 545px;
+    height: 700px;
+
+    text-align: center;
+    background-color: yellow;
+
+    float: left; /*ลอยชิด ซ้าย*/
+}
+aside {
+    width: 350px;
+    height: 700px;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left; /*ลอยชิด ซ้าย*/
+}
+footer {
+    width: 910px;
+    height: 100px;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+</style>
+
+
+
+<!-- คลิป 2  -->
+    <!-- <div class="grid-contaner">
+
+        <div class="grid-items">Home</div>
+        <div class="grid-items">Read</div>
+        <div class="grid-items">Write</div>
+        <div class="grid-items">About US</div>
+        <div class="grid-items">Contact Us</div>
+        <div class="grid-items">Privacy Policy</div>
+    </div>
+
+
+    <style>
+        .grid-contaner {
+            display: grid;
+            grid: auto auto /auto auto auto  auto ;/*auto 2 ตัวแรกคือแถว / auto 4 คือคอลัม*/
+            grid-gap: 10px;
+            background-color: blue;
+            padding:10px;
+        }
+        .grid-items{
+            background-color: white;
+            text-align: center;
+            padding: 25px 0;
+            font-size: 30px;
+        }
+    </style> -->
